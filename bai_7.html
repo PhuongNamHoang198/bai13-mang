@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("nhap vao mảng so nguyen 10 phan tu")
+    let v = prompt("nhap phan tu can xoa trong mang")
+    let array = str.split('')
+    let a
+    for (let x=0; x<array.length-1;x++) {
+        if(array[x]==v){
+            array.splice(x,1)
+        }
+    }
+    alert(array)
+</script>
+
+</body>
+</html>
